@@ -36,29 +36,46 @@
     font-size: 16px;
 }
 
-.searchbar{
-    border-radius: 43px;
-    width: 438px;
-    height: 74px;
-    background-color: rgb(55, 56, 56);
-}
 
-.input{
-    margin-top: 30px;
-    position: relative;
+
+.emailWrapper {
     display: flex;
     align-items: center;
-    
-}
-
-.btn{
-    position: absolute;
-    left: 18.5rem;
+    justify-content: space-between;
+    gap: 15px;
+    width: 438px;
+    height: 74px;
     border-radius: 43px;
-    background-color: var(--color-primary);
-    width: 132px;
+    border: 1px solid var(--color-black);
+    background-color: var(--color-secondary);
+    margin-top: 7vh;
+  }
+  
+  .emailWrapper > button {
+    width: 137px;
     height: 62px;
-}
+    border-radius: 43px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .emailWrapper > input {
+    background-color: var(--color-secondary);
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+    border: none;
+    color: var(--color-white);
+    font-weight: 400;
+  }
+  
+  .emailIcon {
+    margin-left: 30px;
+  }
 
 .right{
     width: 50%;

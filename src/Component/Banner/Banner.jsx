@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Banner.module.css";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+
 const Banner = () => {
   return (
     <div className={style.wrapper}>
@@ -15,9 +17,10 @@ const Banner = () => {
             eget, hac massa gravida arcu interdum proin curae.
           </p>
         </div>
-        <div className={style.input}>
-          <input className={style.searchbar} type="text" placeholder="✉️ Enter Your email address" />
-          <button className={style.btn}>Let's Talk</button>
+        <div className={style.emailWrapper}>
+          <MailOutlineIcon className={style.emailIcon} />
+          <input type="text" placeholder="Enter your eamil address" />
+          <button>Let's Talk</button>
         </div>
       </div>
       <div className={style.right}>
