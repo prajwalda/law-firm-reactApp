@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+.btn{
+    background-color: var(--color-black);
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    width: 172px;
+    height: 47px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}

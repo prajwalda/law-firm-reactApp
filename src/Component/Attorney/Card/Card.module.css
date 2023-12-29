@@ -1,0 +1,25 @@
+.wrapper{
+    width: 359px;
+    height: 377px;
+    border: 2px solid #1D1D1D;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1rem;
+}
+.text{
+    opacity: 30%;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.h2{
+    font-size: 24px;
+}
+.btn{
+    border-radius: 43px;
+    background-color: var(--color-primary);
+    width: 121px;
+    height: 43px;
+}

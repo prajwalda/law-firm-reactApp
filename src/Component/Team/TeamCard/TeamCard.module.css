@@ -1,0 +1,30 @@
+.wrapperClassName {
+  display: flex;
+  width: 344px;
+  height: 109px;
+  gap: 2rem;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3b748;
+}
+.wrapper {
+  display: flex;
+  width: 344px;
+  height: 109px;
+  gap: 2rem;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.right div {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.right p {
+  font-size: 14px;
+  opacity: 30%;
+  font-weight: 400;
+}

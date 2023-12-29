@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  margin-top: 10vh;
+}
+
+.card {
+  width: 359px;
+  height: 348px;
+  border: 2px solid #1D1D1D;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-left: 1rem;
+  background-color: #2E2E2E  ;
+}
+
+.h2 {
+  font-size: 24px;
+}
+
+.p {
+  font-size: 14px;
+}
+
+.p1 {
+  font-size: 14px;
+  opacity: 30%;
+}

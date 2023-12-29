@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1137px;
+}
+
+.head{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    width: 40%;
+}
+
+.swiper{
+    width: 20%;
+    display: flex;
+    gap: 1rem;
+}
+
+.leftbtn{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.rightbtn{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: #E3B748;
+}
+
+.carousel{
+    display: flex;
+    gap: 1rem;
+}

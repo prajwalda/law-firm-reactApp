@@ -1,0 +1,12 @@
+.wrapper {
+  width: 1135px;
+  height: 635px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    height: 100vh;
+}
